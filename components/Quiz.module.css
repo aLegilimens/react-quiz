@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+* {
+  font-family: "Comfortaa", cursive;
+}
+.container {
+  background-color: #bfdabe9a;
+  width: 70vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.question {
+  background-color: #cfe2ced6;
+  padding: 20px;
+  border: 1px solid rgba(104, 103, 103, 0.566);
+  border-radius: 15px;
+  margin: 10px;
+  width: 60vh;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+.allAnswers {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.answers {
+  background-color: #cfe2ced6;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 15px;
+  width: 30vh;
+  height: 10vh;
+  cursor: pointer;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: 1px solid rgba(104, 103, 103, 0.566);
+}
+.next {
+  background-color: #d3a1a0ac;
+  padding: 10px;
+  margin: 10px;
+  width: 50%;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-left: 25%;
+  border: none;
+}

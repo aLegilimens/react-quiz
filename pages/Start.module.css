@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
+.container {
+  background-color: #bfdabed6;
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+}
+.title {
+  font-family: "Tangerine", cursive;
+  font-size: 3rem;
+  word-spacing: 0.4rem;
+  letter-spacing: 0.1rem;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form {
+  padding: 30px;
+  font-family: "Comfortaa", cursive;
+}
+.group {
+  padding: 10px;
+  text-align: center;
+}
+.input {
+  width: 50%;
+  height: 30%;
+  text-align: center;
+}
